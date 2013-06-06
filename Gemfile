@@ -8,7 +8,6 @@ group :assets do
 end
 gem "jquery-rails", "2.3.0"
 gem "unicorn", ">= 4.3.1"
-gem "slim", ">= 2.0.0.pre.6"
 gem "haml2slim", ">= 0.4.6", :group => :development
 gem "haml-rails", ">= 0.4", :group => :development
 gem "html2haml", ">= 1.0.1", :group => :development
@@ -29,7 +28,11 @@ gem "figaro", ">= 0.6.3"
 gem "better_errors", ">= 0.7.2", :group => :development
 gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
 
-gem "activeadmin"
+gem "activeadmin", "0.5.1"
 gem "meta_search", ">= 1.1.0.pre"
 
 gem "rails-backbone"
+gem "slim", "1.2.2"
+gem "skim", "0.8.6"
+gem "temple", "0.4.0"
+
