@@ -1,12 +1,12 @@
-source 'https://rubygems.org'
-gem 'rails', '3.2.13'
-gem 'sqlite3'
+source "https://rubygems.org"
+gem "rails", "3.2.13"
+gem "sqlite3"
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem "sass-rails",   "~> 3.2.3"
+  gem "coffee-rails", "~> 3.2.1"
+  gem "uglifier", ">= 1.0.3"
 end
-gem 'jquery-rails'
+gem "jquery-rails", "2.3.0"
 gem "unicorn", ">= 4.3.1"
 gem "slim", ">= 2.0.0.pre.6"
 gem "haml2slim", ">= 0.4.6", :group => :development
@@ -30,3 +30,8 @@ gem "better_errors", ">= 0.7.2", :group => :development
 gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
 
 gem "activeadmin"
+gem "meta_search", ">= 1.1.0.pre"
+
+gem "rocket_pants", "~> 1.0"
+gem "will_paginate", "~> 3.0"
+gem "rails-backbone"
