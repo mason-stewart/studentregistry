@@ -1,20 +1,19 @@
-class StudentsController < RocketPants::Base
-
-    version 1
+class StudentsController < ApplicationController
 
     def index
-      # expose Student.paginate(:page => params[:page])
-      expose Student.all
+      @students = Student.all
+      render :json => @students
     end
 
     def show
-      expose Student.find(params[:id])
+      @student = Student.find(params[:id])
+      render :json => @student
     end
 
     def create
       @student = Student.new(params[:student])
       if @student.save
-        expose @student
+        render :json => @student
       end
    end
 

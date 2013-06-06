@@ -32,6 +32,4 @@ gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri
 gem "activeadmin"
 gem "meta_search", ">= 1.1.0.pre"
 
-gem "rocket_pants", "~> 1.0"
-gem "will_paginate", "~> 3.0"
 gem "rails-backbone"

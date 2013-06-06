@@ -5,7 +5,5 @@ StudentRegistry::Application.routes.draw do
 
   root :to => "home#index"
 
-  api :version => 1 do
-    resources :students
-  end
+  resources :students
 end
