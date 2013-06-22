@@ -1,4 +1,5 @@
 h2. Student Registry demo
+
 Just a simple little skeleton rails app for The Iron Yard Academy students to build their Student Registry backbone apps on top of.
 
 Yay!
